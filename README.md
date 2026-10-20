@@ -30,6 +30,7 @@ Then open <http://127.0.0.1:4173/>. Python 3 is the only local runtime required.
 - `styles.css` contains the forest-green visual system, original dotted background treatment, responsive layouts, carousel presentation, and interaction states.
 - `script.js` controls the mobile navigation, accessible hero carousel, searchable document library, and current copyright year.
 - `assets/` contains the NCS Abuja logo and local chapter photographs/backgrounds used on the page.
+- `assets/team/` contains the chapter executive portraits from the legacy Chapter Executives page (resized to 480px).
 - `.github/skills/` contains the project-local design skills and their supporting references.
 
 ## Content and image updates
@@ -43,6 +44,10 @@ Annual programme PDFs are linked to their original NCS file URLs; older NITDA gu
 The old site's upcoming/past event pages do not currently expose a usable event feed; two older annual event records are linked. Its meeting registration is closed, webinar form shows a loading state, and team applications are closed. The public pages do not expose a working member login, chapter branch locator, organizer dashboard, or venue management backend. The redesign states these limits and routes inquiries to chapter email instead of presenting nonfunctional mock services. A map is provided for the published Abuja office address; it is not a branch locator.
 
 Forms, member records, expert search, CRM workflows, authentication, and live programme registration require the original backend or a new secured service before they can be presented as operational features.
+
+## Section imagery
+
+Sections follow the legacy site's image arrangement: the home About block uses an overlapping photo pair, followed by the Chairman feature, the values cards, a Techies’ Hangout poster band, a full-width membership banner, and Strategic Objectives beside a photo. Inner pages use photo page headers (set per page with the `--heading-image` inline style), the About page shows the executive portrait grid, and Membership, Initiatives, and Get Involved cards carry photos. All of these stack to a single column on phones. Additional photos were copied from the legacy site's media library (advocacy visits from 2022–2026, shown as a gallery on the Events page). The induction and fellowship photos (`ncs-member-induction.jpg`, `ncs-fellows-*.jpg`) come from the national Nigeria Computer Society website and are credited as such on the Membership page.
 
 ## Design notes
 

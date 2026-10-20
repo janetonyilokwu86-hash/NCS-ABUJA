@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=8">
+    <link rel="stylesheet" href="styles.css?v=10">
     <script src="site-shell.js?v=2" defer></script>
     <script src="script.js?v=5" defer></script>
   </head>
@@ -85,13 +85,34 @@
         </div>
       </section>
 
-      <section class="intro section-pad" id="about">
-        <div class="intro-content">
-          <h2>Where technology expertise meets <span>real-world opportunity.</span></h2>
-          <div class="intro-bottom">
-            <p>NCS Abuja brings together technology professionals, public institutions, businesses, academia and innovators to solve problems and create opportunities, all year round.</p>
-            <a class="text-link" href="about.html">Discover the chapter</a>
+      <section class="about-split section-pad" id="about" aria-labelledby="home-about-title">
+        <div class="about-split-copy">
+          <p class="overline">About NCS Abuja Chapter</p>
+          <h2 id="home-about-title">Where technology expertise meets <span>real-world opportunity.</span></h2>
+          <p>The Nigeria Computer Society (NCS) is the umbrella organization of all information technology professionals, interest groups and stakeholders in Nigeria. Formed in 1978 as the Computer Association of Nigeria (COAN), it became NCS in 2002 and is the national platform for advancing IT science and practice.</p>
+          <p>NCS Abuja brings together technology professionals, public institutions, businesses, academia and innovators to solve problems and create opportunities, all year round.</p>
+          <div class="about-points">
+            <div><h3>Our mission</h3><p>Advancement and promotion of computing and IT education and practice for the benefit of all.</p></div>
+            <div><h3>Our objective</h3><p>Promote the education and training of computer and information scientists, engineers, architects and IT professionals.</p></div>
           </div>
+          <a class="text-link" href="about.html">Discover the chapter</a>
+        </div>
+        <figure class="photo-stack">
+          <img class="stack-main" src="assets/NCS-Abuja-at-NDPC-1-1024x769.jpeg" alt="NCS Abuja Chairman presenting a document to the head of the Nigeria Data Protection Commission" loading="lazy">
+          <img class="stack-inset" src="assets/NCS-NIMC-1.jpeg" alt="NCS Abuja delegation with officials during a partnership visit to NIMC" loading="lazy">
+          <span class="stack-badge"><b>1978</b>Founded as COAN</span>
+        </figure>
+      </section>
+
+      <section class="chair-feature section-pad" aria-labelledby="home-chair-title">
+        <figure class="chair-photo"><img src="assets/NCS-NDPC-1-768x578.jpeg" alt="Andrew A. Abu, Chairman of NCS Abuja Chapter, at a meeting" loading="lazy"></figure>
+        <div class="chair-feature-copy">
+          <p class="overline">Meet the chairman</p>
+          <h2 id="home-chair-title">Mr. Andrew A. Abu</h2>
+          <p class="chair-role">Chapter Chairman, NCS Abuja</p>
+          <p>Andrew Agbo Abu is a chartered technology professional, policy, innovation and ecosystem builder, and entrepreneur with a strong track record of building bridges between youth, startups, government and industry.</p>
+          <p>He is the founder of Young Innovators of Nigeria (YIN). He previously served as Director of Innovation &amp; Strategy at NCS Abuja Chapter between 2023 and 2025, and is a Member of the Computer Professionals (Registration) Council of Nigeria (CPN).</p>
+          <a class="text-link" href="about.html#leadership-title">Meet the chapter executives</a>
         </div>
       </section>
 
@@ -106,13 +127,61 @@
           <p class="section-aside">A place to learn, contribute and find your people, whatever part of the technology ecosystem you call home.</p>
         </div>
         <div class="pillar-grid">
-          <article class="pillar"><img src="assets/7xm.xyz653629-1024x683.jpg" alt="Technology professional learning at a computer" loading="lazy"><h3>Professional development</h3><p>Practical learning, expert masterclasses and pathways to grow your career.</p></article>
+          <article class="pillar"><img src="assets/7xm.xyz653629-1024x683.jpg" alt="Smiling young professional carrying a portfolio" loading="lazy"><h3>Professional development</h3><p>Practical learning, expert masterclasses and pathways to grow your career.</p></article>
           <article class="pillar"><img src="assets/nitda-industry-panel.jpeg" alt="Technology and industry professionals in discussion" loading="lazy"><h3>Business &amp; industry</h3><p>Build relationships, find collaborators and bring technology solutions to market.</p></article>
           <article class="pillar"><img src="assets/ministry-partnership-meeting.jpeg" alt="NCS Abuja representatives meeting government stakeholders" loading="lazy"><h3>Policy &amp; government</h3><p>Connect professional insight with the decisions shaping Nigeria’s digital future.</p></article>
           <article class="pillar"><img src="assets/7xm.xyz816956.jpg" alt="Technology professionals collaborating on an idea" loading="lazy"><h3>Innovation &amp; startups</h3><p>Share ideas, access mentorship and connect with Abuja’s innovation community.</p></article>
-          <article class="pillar"><img src="assets/tyaa-1024x683.png" alt="Learners developing practical computer skills" loading="lazy"><h3>Academia &amp; talent</h3><p>Build bridges between campuses, research, emerging talent and industry.</p></article>
+          <article class="pillar"><img src="assets/tyaa-1024x683.png" alt="Audience applauding at a professional event" loading="lazy"><h3>Academia &amp; talent</h3><p>Build bridges between campuses, research, emerging talent and industry.</p></article>
           <article class="pillar"><img src="assets/community-connection.jpeg" alt="NCS members connecting at a professional forum" loading="lazy"><h3>Community &amp; belonging</h3><p>Meet peers, recognise expertise and make a lasting contribution together.</p></article>
         </div>
+      </section>
+
+      <section class="hangout-feature section-pad" aria-labelledby="hangout-title">
+        <div>
+          <p class="overline">Heard about Techies’ Hangout?</p>
+          <h2 id="hangout-title">Members’ Networking &amp; <em>Industry Mixer.</em></h2>
+          <p>Our quarterly chapter meeting brings together tech professionals, innovators and enthusiasts for an evening of meaningful connections, knowledge sharing and collaboration.</p>
+          <p>Whether you want to expand your network, gain industry insights, or simply unwind with like-minded professionals, Techies’ Hangout is the place to be.</p>
+          <ul class="hangout-meta" aria-label="Recent hangout details"><li>Quarterly chapter meeting</li><li>Networking</li><li>Industry insights</li></ul>
+          <div class="button-row">
+            <a class="button button-lime" href="initiatives.html">Explore our initiatives</a>
+            <a class="text-link text-link-light" href="mailto:info@ncsabuja.org.ng?subject=Next%20Techies%E2%80%99%20Hangout">Ask about the next hangout</a>
+          </div>
+        </div>
+        <figure class="hangout-poster">
+          <img src="assets/NCS-Techies.jpeg" alt="Poster for the NCS Abuja Quarter 1 Members’ Networking and Industry Mixer, Techies Hangout, 26 March 2026 at Cosmopolitan University, Abuja" loading="lazy">
+          <figcaption>Q1 2026 chapter meeting · Cosmopolitan University, Abuja</figcaption>
+        </figure>
+      </section>
+
+      <section class="member-band section-pad" aria-labelledby="member-band-title">
+        <div class="member-band-copy">
+          <p class="overline">Membership</p>
+          <h2 id="member-band-title">Become a <em>member.</em></h2>
+          <p>The vast NCS community gives you many opportunities to network with people from every field of computer science and technology. Would you like to join us?</p>
+          <div class="button-row">
+            <a class="button button-lime" href="membership.html">See the benefits</a>
+            <a class="text-link text-link-light" href="https://www.ncs.org.ng/membership-2/" target="_blank" rel="noreferrer">Join through NCS</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="objectives section-pad" aria-labelledby="objectives-title">
+        <div class="objectives-intro">
+          <p class="overline">What we work towards</p>
+          <h2 id="objectives-title">Strategic objectives.</h2>
+          <p>These are some of our strategic aims and objectives.</p>
+          <img src="assets/NCS-Abuja-at-NDPC-2-1024x770.jpeg" alt="NCS Abuja delegation during an advocacy visit to the Nigeria Data Protection Commission" loading="lazy">
+        </div>
+        <ol class="objective-list">
+          <li>Promote the education and training of computer and information scientists, computer engineers, information architects and IT and systems professionals.</li>
+          <li>Actively encourage research in computer and information science, IT and systems practice, and share results from industry, military and education sectors.</li>
+          <li>Promote the exchange of information about the sciences and arts of information processing and management among specialists and the public.</li>
+          <li>Develop the competence of members, encourage integrity, and uphold the ethics in the Society’s Code of Conduct and Code of Practice.</li>
+          <li>Promote and protect the professional interests of members.</li>
+          <li>Advise members, governments, competent authorities and the public on national and international policy affecting the computing and IT industry.</li>
+          <li>Contribute to policy formulation and to the development and assessment of education and training curricula for the profession.</li>
+        </ol>
       </section>
 
       <section class="chapter-leadership section-pad" aria-labelledby="leadership-title">
@@ -227,6 +296,7 @@
       <section class="insights section-pad" id="insights">
         <div class="insights-head"><div><h2>Ideas into action.</h2></div><a class="text-link" href="https://ncsabuja.org.ng/category/advocacy/" target="_blank" rel="noreferrer">All chapter updates</a></div>
         <div class="insights-grid">
+          <a class="insight" href="https://ncsabuja.org.ng/2026/07/15/ncs-abuja-chapter-strengthens-strategic-partnership-with-nigeria-police-force-ict-department-abuja-nigeria-14-july-2026/" target="_blank" rel="noreferrer"><div class="insight-image"><img src="assets/police-ict-visit-group.jpg" alt="NCS Abuja delegation with officers of the Nigeria Police Force ICT Department" loading="lazy"></div><div class="insight-meta"><span>PARTNERSHIP</span><span>15 JUL 2026</span></div><h3>Strengthening partnership with the Nigeria Police Force ICT Department</h3><span class="insight-read">Read the update</span></a>
           <a class="insight" href="https://ncsabuja.org.ng/2026/07/05/ncs-abuja-chapter-pays-courtesy-visit-to-ptdf/" target="_blank" rel="noreferrer"><div class="insight-image"><img src="assets/NCS-PTDF-4.jpeg" alt="NCS Abuja delegation during its courtesy visit to PTDF" loading="lazy"></div><div class="insight-meta"><span>ADVOCACY</span><span>05 JUL 2026</span></div><h3>NCS Abuja Chapter Pays Courtesy Visit to PTDF</h3><span class="insight-read">Read the update</span></a>
           <a class="insight" href="https://ncsabuja.org.ng/2026/07/05/ncs-abuja-chapters-advocacy-partnership-visit-to-nimc/" target="_blank" rel="noreferrer"><div class="insight-image"><img src="assets/NCS-NIMC-1.jpeg" alt="NCS Abuja members at a partnership meeting" loading="lazy"></div><div class="insight-meta"><span>ADVOCACY</span><span>05 JUL 2026</span></div><h3>Building a stronger partnership with NIMC</h3><span class="insight-read">Read the update</span></a>
           <a class="insight" href="https://ncsabuja.org.ng/2026/07/05/ncs-abuja-chapters-advocacy-partnership-visit-to-ndpc/" target="_blank" rel="noreferrer"><div class="insight-image"><img src="assets/NCS-Abuja-at-NDPC.jpeg" alt="NCS Abuja representatives with the Nigeria Data Protection Commission" loading="lazy"></div><div class="insight-meta"><span>POLICY &amp; TRUST</span><span>05 JUL 2026</span></div><h3>Advancing data protection through partnership</h3><span class="insight-read">Read the update</span></a>
