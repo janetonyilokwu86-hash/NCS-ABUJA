@@ -1,0 +1,10 @@
+# Design reference images (not part of the site)
+sample image.webp
+best color grade.JPG
+best color grade 2.JPG
+green color sample background 1.JPG
+
+# Local design-review screenshots
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/config.local.json
