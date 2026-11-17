@@ -8,3 +8,11 @@ green color sample background 1.JPG
 .impeccable/review/
 .impeccable/mocks/
 .impeccable/config.local.json
+
+# Original photo uploads (graded copies live in assets/img, originals in assets/originals)
+mr andrew new picture.jpg
+mr andrew 2.jpg
+group 1.jpg
+ncs at rise.jpg
+ncs.jpg
+photo_2026-11-17_*.jpg

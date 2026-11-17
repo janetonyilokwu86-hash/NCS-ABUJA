@@ -113,8 +113,11 @@ if (reduceMotion) {
     if (!pending.length) {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
+      clearInterval(sweep);
     }
   };
+  // Safety net that does not depend on animation frames or IntersectionObserver.
+  const sweep = setInterval(() => reveal(), 400);
   let ticking = false;
   const onScroll = () => {
     if (ticking) return;
